@@ -8,6 +8,9 @@ The project utilizes image blending techniques, Gaussian Pyramids, Laplacian Pyr
 
 ## Theory
 
+![Image Pyramid](https://upload.wikimedia.org/wikipedia/commons/4/43/Image_pyramid.svg)
+Cmglee, CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0>, via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Image_pyramid.svg)
+
 ### Gaussian Pyramid
 
 The Gaussian Pyramid is a technique in image processing that breaks down an image into successively smaller groups of pixels to blur it. This process enables edge detection, making it easier for computers to identify objects automatically. The pyramid is constructed by repeatedly calculating a weighted average of the neighboring pixels and scaling down the image.
